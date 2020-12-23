@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+body{
+    margin:0;
+    background-color:#DDF3F5;
+}
+/*nav-bar*/
+.topnav{
+    overflow: hidden;
+    background-color:#70ADB5;
+    font-size:1.68em;
+    font-family: 'Roboto', sans-serif;  
+}
+
+.nav {text-decoration:none;}
+.topnav a{
+    float:left;
+    display:inline-block;
+    text-align:center;
+    padding:0.80vw 1.3vw;
+    color:white;
+}
+.topnav a:hover {
+    background-color:#DDF3F5;
+    color:black;
+}
+
+.flex_container{
+   display:flex;
+   flex-direction:column;
+   padding-top:5%;
+   justify-content:center;
+   align-items: center;
+   text-align:center;
+}
+
+.xiaohua{
+   object-fit:cover;
+   height:300px;
+   max-width:100%;
+   
+}
+h1{
+    font-size:3.5em;
+    font-family:'Dancing Script', cursive;
+    
+}
+.job-position{
+    font-size:21px;
+}
+.main{
+    font-size:25px;
+    font-family:'Merriweather', serif;
+    padding-top:10px;
+    line-height:35px;
+    padding-bottom:10%;
+    width:40%;
+}
+
+/*footer*/
+
+.footer{
+    
+    text-align:center;
+    background-color:#40a5c4;   
+    overflow:hidden;
+    bottom:0px;
+    width:100%;   
+}
+
+.footer i{
+    padding:15px 5px;
+    font-size:25px; 
+}
+.linkedin{
+text-decoration:none;
+color:black;
+}
+
+.linkedin:hover {
+ color:white;
+}
+.patent{
+    font-size:20px;
+    padding-bottom:11px;
+    
+}

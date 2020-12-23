@@ -1,0 +1,83 @@
+/*main-blog*/
+.blog {
+    display: grid;
+    grid-gap:1.2vw;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    padding:5% 3%;
+    font-family: 'Merriweather', serif;
+}
+.box-card{
+    word-break:break-all;
+    border:5px dashed #DDF3F5;
+    padding-left:0.8vw;
+    padding-right:0.8vw;
+    font-size:1.5em;
+    line-height:1.6; 
+}
+h3{
+    font-size:1.4em
+}
+.travelPhoto{
+text-align:center;
+}
+.image{
+    object-fit:cover;
+    height:180px;
+    padding-bottom:20px;
+    max-width:100%;  
+}
+.place{
+    font-size:1.1em;
+}
+@media only screen and (max-width: 800px){
+    .topnav{
+        font-size:1.6em;
+    }
+    h1{
+        font-size:4em;
+    }
+    h2{
+        font-size:2em;
+    }
+    .second-container{
+        font-size:1.8em;
+    }
+    .selfie{
+        width:150px;
+        height:150px;
+    }
+    h3{
+        font-size:1.1em;
+    }
+    .contactMe{
+        font-size:18px;
+    }
+    .box-card{
+        font-size:1.3em;
+    } 
+  }
+/*footer*/
+.footer{
+    text-align:center;
+    background-color:#40a5c4; 
+    position:relative;
+    bottom:0px;
+    width:100%;
+    overflow:hidden;
+} 
+.footer i{
+    padding:18px 10px;
+    font-size:25px;
+}
+.linkedin{
+    font-size:18px;
+    text-decoration:none;
+    color:black;
+}
+.linkedin:hover{
+    color:white;
+}
+.patent{
+    font-size:20px;
+    padding-bottom:30px;    
+}

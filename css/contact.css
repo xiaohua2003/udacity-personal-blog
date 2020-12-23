@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+/*top navigation bar*/
+body{
+    margin:0;
+    box-sizing:border-box;
+  
+}
+.topnav{
+    overflow: hidden;
+    background-color:#70ADB5;
+    font-size:1.68em;
+    font-family: 'Roboto', sans-serif;  
+}
+.nav {text-decoration:none;}
+.topnav a{
+    float:left;
+    display:inline-block;
+    text-align:center;
+    padding:0.80vw 1.3vw;
+    color:white;
+}
+.topnav a:hover {
+    background-color:#DDF3F5;
+    color:black;
+}
+
+/*main content*/
+h1{
+  font-size:6em;
+  font-family:'Sacramento', cursive;
+  text-align:center;
+}
+h2{
+    font-size:2.1em;
+    color:#70AF85;
+}
+.contact-me{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom:6%;
+    align-items: center;
+    justify-content: center;
+}
+.contact-info{
+  padding-left:6%;
+}
+.information{
+    font-size:1.3em;
+    font-family: 'Merriweather', serif;
+}
+.my-photo{
+    object-fit:cover;
+    height:280px;
+    max-width:100%;
+}
+.customer-info{
+    font-size:1.1em;
+    margin-top:1.5%;
+    margin-bottom:1.5%;
+}
+.text{
+   width:100%;
+}
+.textbox{
+    height:100px;
+}
+.submit{
+    width:20px;
+    height:25px;
+    padding-bottom:15%;
+}
+
+@media only screen and (max-width:800px){
+    h1{
+        font-size:4em;
+    }
+    h2{
+        font-size:1.6em;
+    }
+}
+
+/*footer*/
+.footer{
+    text-align:center;
+    background-color:#40a5c4;   
+    bottom:0;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+   
+}
+.footer i{
+    padding:15px 5px;
+    font-size:25px;
+}
+.linkedin{
+    color:black;
+    text-decoration:none;
+}
+.linkedin:hover{
+    color:white;
+}
+.patent{
+    font-size:20px;
+    padding-bottom:30px;
+}
+
